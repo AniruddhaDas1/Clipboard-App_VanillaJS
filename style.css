@@ -7,7 +7,9 @@ body {
   background-image: url(./Asset/galaxy-tree-img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-
+}
+h1 {
+  letter-spacing: 1px;
 }
 
 button {
@@ -18,18 +20,25 @@ button {
   font-weight: 700;
   margin-right: 1rem;
   cursor: pointer;
-  
+
   border-radius: 5px;
 }
-button:hover{
+button:hover {
   background-color: crimson;
   transition: all 0.5s ease;
 }
-
 
 textarea {
   border-radius: 5px;
   padding: 5px;
   outline: none;
   border: none;
+}
+
+footer {
+  color: #fff;
+}
+
+a {
+  color: #fff;
 }
