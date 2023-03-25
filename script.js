@@ -10,5 +10,10 @@ function clipBrd() {
   navigator.clipboard.writeText(txt.value);
 
   //Alert
-  alert(`Text copied to clipboard ${txt.value}`);
+  alert(`Text copied to clipboard "${txt.value}"`);
+}
+
+function reset() {
+  txt.value = "";
+  alert(`Text deleted from Input box`);
 }
