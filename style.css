@@ -18,6 +18,8 @@ button {
   margin-right: 1rem;
   cursor: pointer;
   outline: none;
+  border: none;
+  border-radius: 5px;
 }
 button:hover{
   background-color: crimson;
