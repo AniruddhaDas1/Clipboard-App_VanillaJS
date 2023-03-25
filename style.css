@@ -17,4 +17,15 @@ button {
   font-weight: 700;
   margin-right: 1rem;
   cursor: pointer;
+  outline: none;
+}
+button:hover{
+  background-color: crimson;
+  transition: all 0.5s ease;
+}
+
+
+textarea {
+  border-radius: 5px;
+  padding: 5px;
 }

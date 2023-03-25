@@ -1,4 +1,4 @@
-# Project - Autocomplete Search
+# Project - Clipboard App
 
 ![Project-Image](/Asset/proj-img.jpg)
 
